@@ -35,7 +35,7 @@ spec:
       command: ["/bin/sh", "-c"]
       args:
         - set -e -o pipefail;
-          echo "Cloning $REPOSITORY hello world";
+          echo "Cloning $REPOSITORY hello world!!";
           git clone -q -b $REVISION $REPOSITORY .;
     - name: pre-build-check
       image: ibmcom/pipeline-base-image
