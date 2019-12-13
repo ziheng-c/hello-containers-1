@@ -108,7 +108,7 @@ spec:
       - name: task-pvc
         description: the task pvc
       - name: repository
-        description: the git repo
+        description: the git repos
       - name: revision
         description: the revision
         default: master
