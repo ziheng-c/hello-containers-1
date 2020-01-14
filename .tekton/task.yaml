@@ -5,7 +5,7 @@ metadata:
 spec:
   inputs:
     params:
-      - name: task-pvc
+     - name: task-pvc
       - name: repository
         description: the git repo
       - name: revision
