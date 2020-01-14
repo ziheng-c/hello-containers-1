@@ -27,7 +27,7 @@ spec:
     - name: clone-repo
       image: alpine/git
       env:
-        - name: REPOSITORY
+              - name: REPOSITORY
           value: $(inputs.params.repository)
         - name: REVISION
           value: $(inputs.params.revision)
