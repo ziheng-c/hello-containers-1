@@ -6,7 +6,6 @@ spec:
   inputs:
     params:
       - name: task-pvc
-        description: the output pvc
       - name: repository
         description: the git repo
       - name: revision
