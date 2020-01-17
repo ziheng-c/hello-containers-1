@@ -5,7 +5,7 @@ metadata:
 spec:
   params:
     - name: message
-      description: The message to printd
+      description: The message to printdd
       default: hello
     - name: repository
       description: The git repo
